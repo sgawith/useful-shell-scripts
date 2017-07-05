@@ -9,6 +9,14 @@
 #
 # 2017/07/05, Sam Gawith
 # https://github.com/sgawith/useful-shell-scripts
+
+if [ -z "$1" ]; then
+	echo "No argument supplied."
+	echo "Usage: server-status.sh <filename>"
+	echo "Where <filename> is the name and path of a file containing a list of URLs to be checked."
+	exit 1
+fi
+
 allOK=true
 urlCount=0
 
