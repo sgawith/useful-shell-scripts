@@ -1,0 +1,3 @@
+http://www.google.co.uk/
+http://bbc.co.uk/news/
+http://www.google.co.uk/fake-url-to-test-404-response
