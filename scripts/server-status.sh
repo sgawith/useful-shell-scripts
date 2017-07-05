@@ -1,5 +1,14 @@
 #!/bin/bash
 
+# Checks a list of URLs and reports any which do not return
+# a 200 OK http status
+# 
+# Usage: ./server-status.sh <filename>
+# 
+# Where <filename> is the name and path of a file containing a list of URLs to be checked.
+#
+# 2017/07/05, Sam Gawith
+# https://github.com/sgawith/useful-shell-scripts
 allOK=true
 urlCount=0
 

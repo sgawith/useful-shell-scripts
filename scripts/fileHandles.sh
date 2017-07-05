@@ -3,6 +3,9 @@
 # 
 # Usage: ./fileHandles.sh <pid>
 #
-# 2015/04/05
+# Where <pid> is the process ID of a Java process.
+#
+# 2017/04/05, Sam Gawith
+# https://github.com/sgawith/useful-shell-scripts
 
 lsof -a -p $1 | wc -l
