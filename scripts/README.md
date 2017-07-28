@@ -1,6 +1,6 @@
 # Usage instructions
 
-## fileHandles.sh
+## file-handles.sh
 
 This requires a process ID as input. To find the ID for a process, use the ps command:
 
@@ -8,7 +8,7 @@ This requires a process ID as input. To find the ID for a process, use the ps co
 
 This will give you some information about all the running Java processes. Choose the pid from one of them and run the file handles script as follows:
 
-	./fileHandles.sh 3463
+	./file-handles.sh 3463
 
 ## server-status.sh
 
