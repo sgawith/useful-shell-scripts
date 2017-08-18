@@ -22,3 +22,10 @@ This prints the first line of each .feature file below the current directory. Th
 
 	./list-features.sh
 
+## move-media.sh
+
+This script moves all files matching a specified file extension from a source folder to a target folder, maintaining the folder structure. Example use would be moving files from a Dropbox folder to a permanent store. Note that this will overwrite files in the target folders, so use with caution.
+
+	./move-media.sh ~/Downloads/new-music ~/Music/awesome-library mp3
+
+
