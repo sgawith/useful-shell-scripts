@@ -1,7 +1,9 @@
+#!/bin/bash
+
 # Counts open file handles for a specified process ID.
 # Useful for debugging Java 'Too many open files' exceptions.
 # 
-# Usage: ./fileHandles.sh <pid>
+# Usage: ./file-handles.sh <pid>
 #
 # Where <pid> is the process ID of a Java process.
 #
@@ -10,7 +12,7 @@
 
 if [ -z "$1" ]; then
 	echo "No argument supplied."
-	echo "Usage: ./fileHandles.sh <pid>"
+	echo "Usage: ./file-handles.sh <pid>"
 	echo "Where <pid> is the process ID of a Java process."
 	exit 1
 fi
