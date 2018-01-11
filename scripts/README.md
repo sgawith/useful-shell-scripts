@@ -10,12 +10,12 @@ This will give you some information about all the running Java processes. Choose
 
 	./file-handles.sh 3463
 
-## server-status.sh
+## intellij-reset.sh
 
-This requires a text file as input, containing a list of URLs to check, one per line. An example list is included (sample-urls.txt).
+This cleans up an IntelliJ project folder by removing the .idea folder and removing all ./iml files from the current folder and all sub-folders. Specify an IntelliJ project folder as a parameter as follows:
 
-	./server-status.sh ./sample-urls.txt
-	
+	./intellij-reset.sh ~/Documents/MyAwesomeProject/
+
 ## list-features.sh
 
 This prints the first line of each .feature file below the current directory. The intended use is summarising a list of all feature tags from Cucumber feature files.
@@ -27,5 +27,12 @@ This prints the first line of each .feature file below the current directory. Th
 This script moves all files matching a specified file extension from a source folder to a target folder, maintaining the folder structure. Example use would be moving files from a Dropbox folder to a permanent store. Note that this will overwrite files in the target folders, so use with caution.
 
 	./move-media.sh ~/Downloads/new-music ~/Music/awesome-library mp3
+
+## server-status.sh
+
+This requires a text file as input, containing a list of URLs to check, one per line. An example list is included (sample-urls.txt).
+
+	./server-status.sh ./sample-urls.txt
+	
 
 
